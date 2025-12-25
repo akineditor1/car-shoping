@@ -1,10 +1,11 @@
 import React from "react";
 import style from "./CarsPage.module.css";
+import Card from "../module/Card";
 function CarsPage({data}) {
   return (
     <div className={style.container}>
       {data.map((car) => (
-        <p key={car.id}>{car.name}</p>
+        <Card key={car.id} {...car}/>
       ))}
     </div>
   );
