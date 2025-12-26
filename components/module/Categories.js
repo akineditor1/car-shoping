@@ -16,7 +16,7 @@ function Categories() {
       </Link>
       <Link href="categories/suv">
         <div>
-          <p>Suv</p>
+          <p>SUV</p>
           <Suv />
         </div>
       </Link>
@@ -28,7 +28,7 @@ function Categories() {
       </Link>
       <Link href="categories/sport">
         <div>
-          <p>Sport</p>
+          <p>Sport Cars</p>
           <Sport />
         </div>
       </Link>

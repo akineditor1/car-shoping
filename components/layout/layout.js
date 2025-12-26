@@ -6,7 +6,7 @@ function Layout({ children }) {
       <header className={style.header}>
         <Link href="/">
           <h2>SHOPING CAR</h2>
-          <p>Choose an Buy Your Car</p>
+          <p>Choose and Buy Your Car</p>
         </Link>
       </header>
       <div className={style.container}>{children}</div>
